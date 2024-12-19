@@ -3,7 +3,7 @@ function ListGroup() {
   items = [];
 
   if (items.length === 0)
-    return <p>No item found</p>;
+    return <><h1>List</h1><p>No item found</p></>;
   return (
     <>
       <h1>List</h1>
