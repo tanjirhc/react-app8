@@ -2,7 +2,7 @@
 
 export const Alert = () => {
   return (
-    <div>Alert</div>
+    <div className="alert alert-primary">Alert</div>
   )
 }
 
