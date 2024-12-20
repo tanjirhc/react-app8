@@ -2,7 +2,7 @@
 
 const Button = () => {
   return (
-    <button className='butbtn btn-primary'>Button</button>
+    <button className='btn btn-success'>Button</button>
   )
 }
 
