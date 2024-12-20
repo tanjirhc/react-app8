@@ -1,3 +1,7 @@
-function Alert() {}
+import React from 'react'
 
-export default Alert;
+export const Alert = () => {
+  return (
+    <div>Alert</div>
+  )
+}
