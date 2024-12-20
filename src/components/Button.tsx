@@ -1,9 +1,9 @@
-
-
-const Button = () => {
-  return (
-    <button className='btn btn-success'>Button</button>
-  )
+interface Props {
+  children: string;
 }
 
-export default Button
+const Button = ({ children }: Props) => {
+  return <button className="btn btn-success">{children}</button>;
+};
+
+export default Button;
